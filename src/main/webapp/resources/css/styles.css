@@ -1,0 +1,48 @@
+span.labell, label.labell{
+    min-width: 130px;
+    display: inline-block;
+}
+input[type=text]{
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+
+form{
+    max-width: 450px;
+}
+body{
+    padding-left: 100px;
+}
+
+.foot{
+    margin-top: 15px;
+}
+.foot span{
+    display: inline-block;
+    padding: 4px;
+}
+
+table tr.thead td, td.col{
+    background: #2A6496 !important;
+    border-bottom: thin solid #ffffff;
+    color: #ffffff;
+}
+td{
+    background: #E3EFFB;
+    border: thin solid #ffffff;
+}
+table{
+    margin-right: 10px;
+}
