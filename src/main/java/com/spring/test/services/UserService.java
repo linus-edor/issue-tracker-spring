@@ -41,7 +41,7 @@ public class UserService
 
 	public User findUserById(int id) {
 		//return userDao.findUserById(id);
-		return userRepository.findOne(id);
+		return userRepository.findById(Long.valueOf(id)).get();
 	}
 
 	public User login(String email, String password) {
@@ -55,7 +55,7 @@ public class UserService
 	}
 
 	public void deleteUser(int id) {
-		userRepository.delete(id);
+		userRepository.deleteById(id);
 	}
 
 	public User findUserByEmail(String email) {
